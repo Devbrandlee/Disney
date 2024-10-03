@@ -32,7 +32,7 @@ body {
 .banner {
   // dentro da section(pai)
   width: 100%;
-  height: 74vh;
+  height: 70vh;
 
   @media (max-width: 700px){
     width: 100%;
@@ -50,7 +50,7 @@ main {
   div {
     display: flex;
     justify-content: space-evenly;
-    width: 95%; //Antes estava 70% Quando flex d estava ativo na main.
+    width: 95%; //Antes estava 70% Quando  o flex  estava ativo na main.
     margin-top: 2rem;
     margin-bottom: 3rem;
     margin-left: 2rem;
@@ -104,11 +104,7 @@ footer {
 }
 
 .midias {
-  //display: flex;
-  //justify-content: center;
-  //border: solid rgb(35, 174, 14);
-  //width: 50%;
-  //gap: 1rem;
+ 
 
 
 
@@ -122,8 +118,8 @@ footer {
 .logo{
  width: 6vw;
 
- @media(max-width: 700px) {
-  width: 13vw;
+ @media(max-width: 400px) {
+  width: 23vw;
 
  }
  
